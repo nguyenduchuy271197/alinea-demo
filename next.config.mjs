@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  // ... other options
+  experimental: {
+    serverComponentsExternalPackages: ["@alinea/generated"],
+  },
+};
 
 export default nextConfig;
